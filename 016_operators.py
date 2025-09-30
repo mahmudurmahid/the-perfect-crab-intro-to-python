@@ -60,6 +60,10 @@ print(f"7 // 2 = {floored} (should be 3)")
 remainder = 7 % 2
 print(f"7 % 2 = {remainder} (should be 1)")
 
+# Exponentiation
+power = 2 ** 3
+print(f"2 ** 3 = {power} (should be 8)")
+
 # @TASK: For each section below:
 #
 # 1. Uncomment the code by removing the `# `
