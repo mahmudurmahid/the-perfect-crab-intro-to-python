@@ -116,7 +116,6 @@ print("")
 print("Function: reverse_list")
 
 def reverse_list(the_list):
-  # ...
   the_list.reverse()
 
   return the_list
