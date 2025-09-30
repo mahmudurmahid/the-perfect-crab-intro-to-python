@@ -27,8 +27,25 @@ from lib.helpers import check_that_these_are_equal
 print("")
 print("Function: report_long_words")
 
+# Write a function that takes a list of words and returns a report of all the
+# words that are longer than 10 characters but don't contain a hyphen. If those
+# words are longer than 15 characters, then they should be shortened to 15
+# characters and have an ellipsis (...) added to the end.
+
 def report_long_words(words):
-  pass
+  report = []
+  char_len10 = []
+
+  for word in words:
+    if len(word) > 10 and len(word) < 15 and "-" not in word:
+      report.append(word)
+
+    if len(word) > 15 and "-" not in word:
+      new_word = word[0:15] + "..."
+      report.append(new_word)
+  
+  return "These words are quite long: " + ", ".join(report)
+
 
 check_that_these_are_equal(
   report_long_words([
