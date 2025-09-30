@@ -48,6 +48,18 @@ print(f"5 - 2 = {subtracted} (should be 3)")
 multiplied = 2 * 3
 print(f"2 * 3 = {multiplied} (should be 6)")
 
+# True Division (always returns float in Python 3)
+divided = 7 / 2
+print(f"7 / 2 = {divided} (should be 3.5)")
+
+# Floor Division (integer division, rounding down)
+floored = 7 // 2
+print(f"7 // 2 = {floored} (should be 3)")
+
+# Modulo (remainder)
+remainder = 7 % 2
+print(f"7 % 2 = {remainder} (should be 1)")
+
 # @TASK: For each section below:
 #
 # 1. Uncomment the code by removing the `# `
