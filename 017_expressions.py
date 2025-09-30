@@ -84,7 +84,8 @@ add_one(4) * 3      # Evaluates to 15
 
 # To finish off, here's a real mind-bender:
 
-add_one(add_one(add_one(add_one(add_one(add_one(1))))))
+mind_bender = add_one(add_one(add_one(add_one(add_one(add_one(1))))))
+print(f'the mind bender is {mind_bender}')
 
 # @TASK: What do you think that evaluates to? And why? Give it a go and find
 # out.
