@@ -40,6 +40,10 @@ def add_one(num):
 added = 2 + 3
 print(f"2 + 3 = {added} (should be 5)")
 
+# Subtraction
+subtracted = 5 - 2
+print(f"5 - 2 = {subtracted} (should be 3)")
+
 # Multiplication
 multiplied = 2 * 3
 print(f"2 * 3 = {multiplied} (should be 6)")
