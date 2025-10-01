@@ -34,11 +34,11 @@ def report_long_words(words):
   for word in words:
     if len(word) > 10 and len(word) < 15 and "-" not in word:
       report.append(word)
-
+      
     if len(word) > 15 and "-" not in word:
       new_word = word[0:15] + "..."
       report.append(new_word)
-  
+
   return "These words are quite long: " + ", ".join(report)
 
 
